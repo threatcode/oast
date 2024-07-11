@@ -214,7 +214,7 @@ func (h *HTTPServer) handleInteraction(uniqueID, fullID, reqString, respString, 
 
 const banner = `<h1> Interactsh Server </h1>
 
-<a href='https://github.com/projectdiscovery/interactsh'><b>Interactsh</b></a> is an open-source tool for detecting out-of-band interactions. It is a tool designed to detect vulnerabilities that cause external interactions.<br><br>
+<a href='https://github.com/threatcode/oast'><b>Interactsh</b></a> is an open-source tool for detecting out-of-band interactions. It is a tool designed to detect vulnerabilities that cause external interactions.<br><br>
 
 If you notice any interactions from <b>*.%s</b> in your logs, it's possible that someone (internal security engineers, pen-testers, bug-bounty hunters) has been testing your application.<br><br>
 

@@ -6,7 +6,7 @@ import (
 	"log"
 
 	"github.com/miekg/dns"
-	"github.com/projectdiscovery/interactsh/pkg/client"
+	"github.com/threatcode/oast/pkg/client"
 	"github.com/projectdiscovery/retryabledns"
 	"github.com/remeh/sizedwaitgroup"
 )

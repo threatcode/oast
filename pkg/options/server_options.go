@@ -2,7 +2,7 @@ package options
 
 import (
 	"github.com/projectdiscovery/goflags"
-	"github.com/projectdiscovery/interactsh/pkg/server"
+	"github.com/threatcode/oast/pkg/server"
 )
 
 type CLIServerOptions struct {

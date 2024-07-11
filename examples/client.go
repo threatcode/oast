@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/projectdiscovery/interactsh/pkg/client"
-	"github.com/projectdiscovery/interactsh/pkg/server"
+	"github.com/threatcode/oast/pkg/client"
+	"github.com/threatcode/oast/pkg/server"
 )
 
 func main() {

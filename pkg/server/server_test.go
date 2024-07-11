@@ -3,7 +3,7 @@ package server
 import (
 	"testing"
 
-	"github.com/projectdiscovery/interactsh/pkg/settings"
+	"github.com/threatcode/oast/pkg/settings"
 	"github.com/stretchr/testify/require"
 )
 
