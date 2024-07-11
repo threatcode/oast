@@ -6,8 +6,8 @@
 
 <p align="center">
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-_red.svg"></a>
-<a href="https://github.com/projectdiscovery/interactsh/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
-<a href="https://goreportcard.com/badge/github.com/projectdiscovery/interactsh"><img src="https://goreportcard.com/badge/github.com/projectdiscovery/interactsh"></a>
+<a href="https://github.com/threatcode/oast/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
+<a href="https://goreportcard.com/badge/github.com/threatcode/oast"><img src="https://goreportcard.com/badge/github.com/threatcode/oast"></a>
 <a href="https://twitter.com/pdiscoveryio"><img src="https://img.shields.io/twitter/follow/pdiscoveryio.svg?logo=twitter"></a>
 <a href="https://discord.gg/projectdiscovery"><img src="https://img.shields.io/discord/695645237418131507.svg?logo=discord"></a>
 </p>
@@ -97,7 +97,7 @@ DEBUG:
 Interactsh Cli client requires **go1.20+** to install successfully. Run the following command to get the repo - 
 
 ```sh
-go install -v github.com/projectdiscovery/interactsh/cmd/interactsh-client@latest
+go install -v github.com/threatcode/oast/cmd/interactsh-client@latest
 ```
 
 ### Default Run
@@ -234,7 +234,7 @@ interactsh-client | notify
 
 ## Interactsh Web Client
 
-[Interactsh-web](https://github.com/projectdiscovery/interactsh-web) is a free and open-source web client that displays Interactsh interactions in a well-managed dashboard in your browser. It uses the browser's local storage to store and display all incoming interactions. By default, the web client is configured to use **interact.sh** as default interactsh server, and supports other self-hosted public/authencaited interactsh servers as well.
+[Interactsh-web](https://github.com/threatcode/oast-web) is a free and open-source web client that displays Interactsh interactions in a well-managed dashboard in your browser. It uses the browser's local storage to store and display all incoming interactions. By default, the web client is configured to use **interact.sh** as default interactsh server, and supports other self-hosted public/authencaited interactsh servers as well.
 
 A hosted instance of **interactsh-web** client is available at https://app.interactsh.com
 
@@ -403,7 +403,7 @@ We are using GoDaddy for domain name and DigitalOcean droplet for the server, a 
 Install `interactsh-server` on your **VPS**
 
 ```bash
-go install -v github.com/projectdiscovery/interactsh/cmd/interactsh-server@latest
+go install -v github.com/threatcode/oast/cmd/interactsh-server@latest
 ```
 
 Considering domain name setup is **completed**, run the below command to run `interactsh-server`
@@ -827,5 +827,5 @@ Interactsh is inspired from [Burp Collaborator](https://portswigger.net/burp/doc
 
 ### License
 
-Interactsh is distributed under [MIT License](https://github.com/projectdiscovery/interactsh/blob/master/LICENSE.md) and made with 🖤 by the [projectdiscovery](https://projectdiscovery.io) team.
+Interactsh is distributed under [MIT License](https://github.com/threatcode/oast/blob/master/LICENSE.md) and made with 🖤 by the [projectdiscovery](https://projectdiscovery.io) team.
 

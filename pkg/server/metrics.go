@@ -5,7 +5,7 @@ import (
 
 	units "github.com/docker/go-units"
 	"github.com/mackerelio/go-osstat/network"
-	"github.com/projectdiscovery/interactsh/pkg/storage"
+	"github.com/threatcode/oast/pkg/storage"
 )
 
 type Metrics struct {

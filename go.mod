@@ -1,4 +1,4 @@
-module github.com/projectdiscovery/interactsh
+module github.com/threatcode/oast
 
 go 1.21
 

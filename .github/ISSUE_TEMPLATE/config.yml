@@ -3,11 +3,11 @@ blank_issues_enabled: false
 contact_links:
 
   - name: Ask an question / advise on using interactsh
-    url: https://github.com/projectdiscovery/interactsh/discussions/categories/q-a
+    url: https://github.com/threatcode/oast/discussions/categories/q-a
     about: Ask a question or request support for using interactsh
 
   - name: Share idea / feature to discuss for interactsh
-    url: https://github.com/projectdiscovery/interactsh/discussions/categories/ideas
+    url: https://github.com/threatcode/oast/discussions/categories/ideas
     about: Share idea / feature to discuss for interactsh
 
   - name: Connect with PD Team (Discord)
